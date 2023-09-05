@@ -232,20 +232,136 @@ header{
 }
 .card-content p {
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-right:180px;
     margin-left: 20px;
     display: flex;
     text-decoration: line-through;
     text-decoration-color: gray;
 }
+.vertical1 {
+    border-left: 0px solid;
+    height: 115px;
+    position:absolute;
+    left: 80%;
+    color:rgba(128, 128, 128, 0.514);
+    margin-top:15px;
+    margin-left:-20px;
+    top:21%;
+    border-style:dashed;
+}
+.vertical2 {
+    border-left: 0px solid;
+    height: 114px;
+    position:absolute;
+    left: 80%;
+    color:rgba(128, 128, 128, 0.514);
+    margin-top:15px;
+    margin-left:-20px;
+    top:43%;
+    border-style:dashed;
+}
+.vertical3 {
+    border-left: 0px solid;
+    height: 114px;
+    position:absolute;
+    left: 80%;
+    color:rgba(128, 128, 128, 0.514);
+    margin-top:15px;
+    margin-left:-20px;
+    top:65%;
+    border-style:dashed;
+}
+#star1
+{
+   top:11%;
+   height: 14px;
+   left: 20px;
+   position: absolute;
+}
+#star2
+{
+   top:45%;
+   height: 14px;
+   left: 20px;
+   position: absolute;
+}
+#star3
+{
+   top:80%;
+   height: 20px;
+   left: 20px;
+   position: absolute;
+}
+.star3
+{
+   top:75%;
+   height: 25px;
+   left: 10px;
+   position: absolute;
+}
+.date1{
+    padding-left: 53px;
+    font-size: 13px; 
+    position: absolute;
+    margin-top:12px;
+    color: #000000af;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.time
+{
+    padding-left: 53px;
+    font-size: 13px; 
+    top:15%;
+    position: absolute;
+    color: #000000aa;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+.prior{
+    padding-left: 53px;
+    font-size: 12px; 
+    top:55%;
+    position: absolute;
+    color: #000000c4;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.vertical4{
+    border-left: 0px solid;
+    height: 50px;
+    position:absolute;
+    left: 175px;
+    color:rgba(128, 128, 128, 0.514);
+    margin-left:-20px;
+    top:26%;
+    border-style:dashed;
+}
+#edit
+{
+   top:10%;
+   height: 14px;
+   left: 150px;
+   position: absolute;
+
+}
+#delete
+{
+   top:80%;
+   height: 18px;
+   width: 15px;
+   left: 150px;
+   position: absolute;
+
+}
 .title
 {
     display:flex;
     margin-left:15px;
-    color: #1e991cf3;
+    color: rgba(0, 128, 0, 0.575);
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #tasktodo
 {
@@ -257,7 +373,7 @@ header{
     height: 22px;
 }
 .second{
-    margin-left: 5px;
+    margin-left: 10px;
 }
 #purple
 {
@@ -266,26 +382,81 @@ header{
 }
 .text-two{
     display:flex;
-    color: gray;
+    color: #000000c1;
 }
 .overview1{
-    font-size: 12px;
-    background-color: rgba(128, 128, 128, 0.148); 
-    width: 100px;
-    padding-left: 8px;
-}
-.overview2{
-    font-size: 12px;
+    font-size: 10px;
     background-color: rgba(128, 128, 128, 0.148); 
     width: 80px;
-    padding-left: 10px;
+    height: 15px;
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.overview2{
+    font-size: 10px;
+    background-color: rgba(128, 128, 128, 0.148); 
+    width: 55px;
+    height: 15px;
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-left: 10px;
+    margin-top: 20px;
+
 }
 .overview3{
+    font-size: 10px;
+    background-color: rgba(128, 128, 128, 0.148); 
+    width: 80px;
+    height: 15px;
+    color: #e60965b9;
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.finish{
+    padding-left: 195px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight:500;
+    font-weight: 550;
+}
+.finish1{
+    padding-left: 220px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.finish2{
+    padding-left: 191px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 550;
+    color: #000000b7;
+}
+.overview4{
     font-size: 12px;
     background-color: rgba(128, 128, 128, 0.148); 
-    width: 100px;
-    color: #e60965df;
-    padding-left: 8px;
+    width: 55px;
+    height: 15px;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #1e991c9d;
+}
+.overview5{
+    font-size: 12px;
+    background-color: rgba(128, 128, 128, 0.203); 
+    width: 55px;
+    height: 15px;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #000000a5;
 }
 .footer{
     background-color: white;
