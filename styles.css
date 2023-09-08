@@ -43,7 +43,8 @@ header{
 }
 .overview {
     font-size: 12px;
-    background-color: #f5f5f5; 
+    background-color: rgba(128, 128, 128, 0.148);
+    padding-left: 3px; 
     width: 90px;
     margin-top:7px;
     margin-left:160px;
@@ -75,7 +76,6 @@ header{
     flex-direction: column;
     margin-right: 5px;
     margin-top: 2px;
-
 }
 #home
 {
@@ -231,7 +231,7 @@ header{
     margin-right: 15px;
 }
 .card-content p {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 2px;
     margin-right:180px;
     margin-left: 20px;
@@ -312,7 +312,7 @@ header{
 {
     padding-left: 53px;
     font-size: 13px; 
-    top:17%;
+    top:18%;
     position: absolute;
     color: #000000aa;
     white-space: nowrap;
